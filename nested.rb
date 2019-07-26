@@ -61,7 +61,7 @@ def dennis_ritchies_language
      }
 #    it "operates on the programmer_hash and returns the value of Dennis Ritchie's language as a string" do
 
-programmer_hash[:dennis_ritchie][:languages]
+programmer_hash[:dennis_ritchie][:languages].to_s
 
 
 end
